@@ -1,8 +1,8 @@
 class XtensorBlas < Formula
   desc "BLAS extension to xtensor"
   homepage "https://xtensor-blas.readthedocs.io/"
-  url "https://github.com/QuantStack/xtensor-blas/archive/0.13.1.tar.gz"
-  sha256 "3798fedc0def008662d2c99948b35ff01d6a86deffb6245b80fd37745c6c37d5"
+  url "https://github.com/QuantStack/xtensor-blas/archive/0.15.1.tar.gz"
+  sha256 "221fbb0d4106d6bfbca55aba19b58efc4b2177b6c7c2404290bc1b3d33337127"
 
   depends_on "cmake" => :build
   depends_on "xtensor"
