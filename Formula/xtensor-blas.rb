@@ -7,8 +7,6 @@ class XtensorBlas < Formula
   depends_on "cmake" => :build
   depends_on "xtensor"
 
-  needs :cxx14
-
   def install
     args = std_cmake_args
     args << "-DCMAKE_PREFIX_PATH=#{prefix}"
